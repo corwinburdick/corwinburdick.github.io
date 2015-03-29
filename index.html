@@ -28,16 +28,15 @@
         <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-
-<embed 
-id="Glance"
-type="application/x-java-applet;version=1.7"
-width="400" height="400" 
-archive="glance.jar"
-code="components.Glance.class"
-pluginspage="http://java.com/download/"/>
-
-<object width="400" height="400" code="glance.jar"></object> 
+<script src="http://www.java.com/js/deployJava.js"></script>
+<script>
+    var attributes = {
+        code:'components.Glance.class',
+    width:400, height:400} ;
+    var parameters = {}; // does the Applet take parameters?
+    var version = '1.7' ; // does the Applet require a minimum version of Java
+    deployJava.runApplet(attributes, parameters, version);
+</script>
 
       </section>
     </div>
